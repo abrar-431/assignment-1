@@ -8,6 +8,22 @@ main {
     font-family: 'Merriweather', serif;
 }
 
+.primary-button {
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+}
+
 /* Header styles */
 header {
     background: #FFF;
@@ -48,6 +64,7 @@ header {
 }
 
 /* Main Styles */
+/* Discount Styles */
 .discount {
     margin: 100px auto;
     width: 50%;
@@ -83,4 +100,86 @@ header {
     font-style: normal;
     font-weight: 700;
     margin-bottom: 48px;
+}
+
+/* Midnight Party styles */
+.mid-party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.party-details {
+    padding-top: 126px;
+    padding-left: 126px;
+}
+
+.party-title {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    margin-right: 55px;
+    margin-bottom: 24px;
+}
+
+.party-info {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.party-image {
+    padding: 66px 138px 65px;
+    background-blend-mode: multiply;
+}
+
+.party-join-btn {
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.mid-party button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 4px 4px;
+}
+
+.place {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-top: 100px;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 120px;
+    background: linear-gradient(rgb(244, 199, 207),white);
+}
+
+.time-info {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.time-info {
+    text-align: center;
+    margin-bottom: 64px;
+}
+.header-color{
+    color: #F00;
 }
