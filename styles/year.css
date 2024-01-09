@@ -1,0 +1,86 @@
+/* Shared Property */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    font-family: 'Merriweather', serif;
+}
+
+/* Header styles */
+header {
+    background: #FFF;
+}
+
+.container {
+    background-image: linear-gradient(180deg, #070211, rgba(7, 2, 17, 0.00)), url('../images/Banner\ Image.png');
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+
+.hny {
+    padding-top: 177px;
+    padding-bottom: 16px;
+}
+
+.hny h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header-title {
+    padding-bottom: 177px;
+}
+
+.header-title h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 13px;
+}
+
+/* Main Styles */
+.discount {
+    margin: 100px auto;
+    width: 50%;
+    max-width: 1600px;
+    align-items: center;
+}
+
+.discount h3 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.category {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
